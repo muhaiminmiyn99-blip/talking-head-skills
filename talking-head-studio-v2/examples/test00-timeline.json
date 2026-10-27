@@ -1,0 +1,648 @@
+{
+  "source": "C:/Users/muhai/OneDrive/Desktop/TEST TALKING/TEST 00.mp4",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 31.9
+  },
+  "notes": "Validated example (TEST 00, Fira Worldwide, v7). Copy patterns, not text.",
+  "segments": [
+    {
+      "id": "S1",
+      "start": 0,
+      "end": 1.08,
+      "text": "Tak boring ke trade sorang-sorang?"
+    },
+    {
+      "id": "S2",
+      "start": 1.5,
+      "end": 2.9,
+      "text": "Nak feel trade ramai-ramai?"
+    },
+    {
+      "id": "S3",
+      "start": 3.16,
+      "end": 3.8,
+      "text": "Dekat sini guys."
+    },
+    {
+      "id": "S4",
+      "start": 3.9,
+      "end": 5.18,
+      "text": "Live trade face-to-face dengan Fira"
+    },
+    {
+      "id": "S5",
+      "start": 5.18,
+      "end": 7.22,
+      "text": "bukan setakat buy ataupun sell je tau."
+    },
+    {
+      "id": "S6",
+      "start": 7.48,
+      "end": 8.36,
+      "text": "Zaman bila macam tu?"
+    },
+    {
+      "id": "S7",
+      "start": 8.52,
+      "end": 10.1,
+      "text": "Kali ni Fira akan explain"
+    },
+    {
+      "id": "S8",
+      "start": 10.1,
+      "end": 12.44,
+      "text": "kenapa Fira ajak korang entry dekat setup tu."
+    },
+    {
+      "id": "S9",
+      "start": 12.58,
+      "end": 14.64,
+      "text": "So korang boleh belajar and trade dengan Fira."
+    },
+    {
+      "id": "S10",
+      "start": 14.82,
+      "end": 15.66,
+      "text": "Confirm tak boring guys."
+    },
+    {
+      "id": "S11",
+      "start": 15.88,
+      "end": 18.12,
+      "text": "13 Oktober ni Fira nak ajak you all"
+    },
+    {
+      "id": "S12",
+      "start": 18.12,
+      "end": 20.5,
+      "text": "live trade sama-sama face-to-face"
+    },
+    {
+      "id": "S13",
+      "start": 20.5,
+      "end": 22.88,
+      "text": "untuk tengok macam mana Fira trade pakai AI ni."
+    },
+    {
+      "id": "S14",
+      "start": 22.88,
+      "end": 25.94,
+      "text": "So klik link and stand by Fira open intake"
+    },
+    {
+      "id": "S15",
+      "start": 25.94,
+      "end": 27.8,
+      "text": "sebab slot very limited."
+    },
+    {
+      "id": "S16",
+      "start": 28.06,
+      "end": 28.76,
+      "text": "I'll see you guys then."
+    }
+  ],
+  "cards": [
+    {
+      "seg": "S1",
+      "rows": [
+        [
+          "lead rules",
+          "Tak boring ke"
+        ],
+        [
+          "box",
+          "trade *sorang-sorang?"
+        ]
+      ]
+    },
+    {
+      "seg": "S2",
+      "rows": [
+        [
+          "ital",
+          "Nak feel trade"
+        ],
+        [
+          "key",
+          "Ramai-Ramai?"
+        ]
+      ],
+      "zoom": 1.08
+    },
+    {
+      "seg": "S3",
+      "rows": [
+        [
+          "ital",
+          "Dekat *Sini *Guys."
+        ]
+      ]
+    },
+    {
+      "seg": "S4",
+      "rows": [
+        [
+          "ital",
+          "Live trade *Face-to-Face"
+        ],
+        [
+          "lead",
+          "dengan Fira"
+        ]
+      ]
+    },
+    {
+      "seg": "S5",
+      "rows": [
+        [
+          "ital",
+          "bukan setakat *Buy"
+        ],
+        [
+          "conn",
+          ""
+        ],
+        [
+          "pill",
+          "ataupun *Sell"
+        ],
+        [
+          "lead",
+          "je tau."
+        ]
+      ],
+      "size": {
+        "boxk": 84
+      },
+      "hide": true
+    },
+    {
+      "seg": "S6",
+      "rows": [
+        [
+          "ital",
+          "Zaman bila"
+        ],
+        [
+          "key underline",
+          "Macam Tu?"
+        ]
+      ]
+    },
+    {
+      "seg": "S7",
+      "rows": [
+        [
+          "ital",
+          "Kali ni Fira akan"
+        ],
+        [
+          "key",
+          "Explain"
+        ]
+      ],
+      "hide": true
+    },
+    {
+      "seg": "S8",
+      "rows": [
+        [
+          "ital",
+          "kenapa Fira ajak korang"
+        ],
+        [
+          "key",
+          "Entry"
+        ],
+        [
+          "conn",
+          ""
+        ],
+        [
+          "pill",
+          "dekat setup tu."
+        ]
+      ],
+      "size": {
+        "boxk": 72
+      },
+      "hide": true
+    },
+    {
+      "seg": "S9",
+      "rows": [
+        [
+          "lead dots",
+          "So korang boleh"
+        ],
+        [
+          "key item",
+          "Belajar"
+        ],
+        [
+          "ital",
+          "and"
+        ],
+        [
+          "key item",
+          "Trade"
+        ],
+        [
+          "lead",
+          "dengan Fira"
+        ]
+      ],
+      "hide": true
+    },
+    {
+      "seg": "S10",
+      "rows": [
+        [
+          "ital",
+          "Confirm"
+        ],
+        [
+          "key",
+          "Tak Boring Guys."
+        ]
+      ],
+      "zoom": 1.15
+    },
+    {
+      "seg": "S11",
+      "rows": [
+        [
+          "key icon:cal",
+          "13 Oktober"
+        ],
+        [
+          "ital",
+          "ni Fira nak ajak you all"
+        ]
+      ]
+    },
+    {
+      "seg": "S12",
+      "rows": [
+        [
+          "ital",
+          "live trade sama-sama"
+        ],
+        [
+          "key",
+          "Face-to-Face"
+        ]
+      ],
+      "hide": true
+    },
+    {
+      "seg": "S13",
+      "rows": [
+        [
+          "ital",
+          "untuk tengok macam mana Fira trade"
+        ],
+        [
+          "key underline",
+          "Pakai AI"
+        ],
+        [
+          "lead",
+          "ni."
+        ]
+      ],
+      "size": {
+        "lead": 50
+      },
+      "hide": true
+    },
+    {
+      "seg": "S14",
+      "rows": [
+        [
+          "lead icon:link",
+          "So klik link and stand by"
+        ],
+        [
+          "key",
+          "Fira Open Intake"
+        ]
+      ],
+      "size": {
+        "key": 96
+      }
+    },
+    {
+      "seg": "S15",
+      "rows": [
+        [
+          "lead rules",
+          "sebab slot"
+        ],
+        [
+          "box",
+          "*Very *Limited"
+        ]
+      ],
+      "zoom": 1.1,
+      "size": {
+        "boxk": 110
+      },
+      "hide": true
+    },
+    {
+      "seg": "S16",
+      "rows": [
+        [
+          "ital",
+          "I'll see you guys"
+        ],
+        [
+          "key underline",
+          "Then."
+        ]
+      ]
+    }
+  ],
+  "broll": [
+    {
+      "id": "I1",
+      "type": "html",
+      "scene": "pills",
+      "start": 5.15,
+      "end": 7.3,
+      "purpose": "bukan setakat buy ataupun sell: glass pills Buy/Sell, amber strike on je tau",
+      "sparks": [
+        [
+          200,
+          360,
+          0
+        ],
+        [
+          820,
+          700,
+          1.7
+        ]
+      ],
+      "p": {
+        "title": "BUKAN SETAKAT",
+        "titleY": 420,
+        "items": [
+          {
+            "text": "Buy",
+            "cue": "buy"
+          },
+          {
+            "text": "Sell",
+            "cue": "sell"
+          }
+        ],
+        "y0": 580,
+        "gap": 190,
+        "strike": {
+          "cue": "je"
+        }
+      }
+    },
+    {
+      "id": "I2",
+      "type": "html",
+      "start": 8.45,
+      "end": 12.5,
+      "scene": "chart",
+      "purpose": "explain why entry at the setup: glass card with drawn amber line, setup zone and entry ring (metaphorical, no values)",
+      "sparks": [
+        [
+          160,
+          300,
+          0.5
+        ]
+      ],
+      "p": {
+        "title": "EXPLAIN",
+        "titleCue": "explain",
+        "marks": [
+          {
+            "text": "Entry",
+            "cue": "entry"
+          },
+          {
+            "text": "Setup",
+            "cue": "setup"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I3",
+      "type": "html",
+      "scene": "app-icon",
+      "start": 18.1,
+      "end": 22.9,
+      "purpose": "live trade together using AI: glowing gradient AI icon + blur-in list",
+      "sparks": [
+        [
+          200,
+          330,
+          0
+        ],
+        [
+          840,
+          520,
+          1.2
+        ],
+        [
+          180,
+          1000,
+          2.4
+        ]
+      ],
+      "p": {
+        "label": "AI",
+        "glowCue": "ai",
+        "items": [
+          {
+            "text": "Live trade",
+            "cue": "live"
+          },
+          {
+            "text": "Sama-sama",
+            "cue": "sama-sama"
+          },
+          {
+            "text": "Face-to-face",
+            "cue": "face-to-face"
+          },
+          {
+            "text": "Pakai AI",
+            "cue": "ai",
+            "accent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "I4",
+      "type": "html",
+      "start": 25.9,
+      "end": 27.85,
+      "scene": "slots",
+      "purpose": "slot very limited: slot grid fills up, two amber slots left; pill",
+      "sparks": [
+        [
+          840,
+          300,
+          0.3
+        ]
+      ],
+      "p": {
+        "title": "LIMITED",
+        "titleCue": "limited",
+        "total": 12,
+        "free": [
+          5,
+          10
+        ],
+        "pill": {
+          "text": "Slot very limited",
+          "cue": "very"
+        }
+      }
+    }
+  ],
+  "endcard": {
+    "start": 28.9,
+    "captions": false
+  },
+  "caption_style": "A1 (SPH Auto Parts) caption grammar",
+  "broll_style": "Iman Gadzhi Dark Luxury UI",
+  "broll_layer": "broll-iman.js",
+  "popups": [
+    {
+      "id": "PA",
+      "kind": "icon",
+      "behind": true,
+      "src": "assets/icons/people.png",
+      "start": 1.5,
+      "end": 3,
+      "cue": "ramai-ramai",
+      "lead": 0.45,
+      "x": 520,
+      "y": 360,
+      "size": 540,
+      "rise": 560,
+      "tilt": 10,
+      "purpose": "ramai-ramai: 3D group icon rises from behind her shoulder"
+    },
+    {
+      "id": "PB",
+      "kind": "icon",
+      "behind": true,
+      "src": "assets/icons/calendar.png",
+      "start": 15.88,
+      "end": 18.05,
+      "cue": "13",
+      "lead": 0.25,
+      "x": 560,
+      "y": 300,
+      "size": 470,
+      "rise": 560,
+      "tilt": 8,
+      "purpose": "13 Oktober: 3D calendar rises from behind her shoulder"
+    },
+    {
+      "id": "PC",
+      "kind": "icon",
+      "behind": true,
+      "src": "assets/icons/link-cursor.png",
+      "start": 22.9,
+      "end": 25.85,
+      "cue": "klik",
+      "lead": 0.3,
+      "x": 520,
+      "y": 290,
+      "size": 520,
+      "rise": 560,
+      "tilt": -9,
+      "purpose": "klik link: 3D link + cursor rises from behind her shoulder",
+      "mouse": "link"
+    },
+    {
+      "id": "PD",
+      "kind": "pills",
+      "behind": false,
+      "start": 12.58,
+      "end": 14.75,
+      "cue": "so",
+      "lead": 0,
+      "title": "SO KORANG BOLEH",
+      "titleY": 850,
+      "pills": [
+        {
+          "text": "Belajar",
+          "y": 955,
+          "cue": "belajar"
+        },
+        {
+          "text": "Trade dengan Fira",
+          "y": 1095,
+          "cue": "trade"
+        }
+      ],
+      "purpose": "text popup replaces the A1 card for this line"
+    }
+  ],
+  "masks": [
+    {
+      "file": "assets/mask/c1_rb.mp4",
+      "start": 1.4,
+      "popup": "PA"
+    },
+    {
+      "file": "assets/mask/c2_rb.mp4",
+      "start": 15.8,
+      "popup": "PB"
+    },
+    {
+      "file": "assets/mask/c3_rb.mp4",
+      "start": 22.8,
+      "popup": "PC"
+    }
+  ],
+  "sfx": {
+    "dir": "sfx/pro",
+    "bus_gain": 0.42,
+    "peak_align": [
+      "whoosh",
+      "rise",
+      "swipe",
+      "magic",
+      "slide",
+      "riser",
+      "boom",
+      "hit"
+    ],
+    "gains": {
+      "impact": 0.8,
+      "magic": 0.8
+    },
+    "cinematic": true
+  },
+  "safe_area": {
+    "platforms": "TikTok + Instagram Reels",
+    "x": [
+      120,
+      900
+    ],
+    "y": [
+      270,
+      1260
+    ],
+    "note": "x up to 960 allowed above y 840; 3D icons stay above y 840 when they pass x 900"
+  },
+  "accent": "#FF9A3C"
+}

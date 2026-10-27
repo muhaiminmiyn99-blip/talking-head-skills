@@ -1,0 +1,734 @@
+{
+ "source": "C:/Users/muhai/OneDrive/Desktop/TEST TALKING/VIDEO 2/CONTENT 9 - CTA 2.mp4",
+ "output": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 45.29
+ },
+ "source_info": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "rotation": 0,
+  "audio": true
+ },
+ "notes": "CONTENT 9 - CTA 2. Real phone app footage 14.4-20.87 kept (captions only). Tail segment times re-transcribed from 28.5s. User confirmed: \"boleh terus tanya direct\", \"trade sekali\", \"Fira Smart Desk\".",
+ "accent": "#FF9A3C",
+ "broll_layer": "broll-iman.js",
+ "broll_style": "Editorial collage (paper/ink) + Iman pieces",
+ "caption_style": "N1 neon (CapCut presets)",
+ "safe_area": {
+  "platforms": "TikTok + Instagram Reels",
+  "x": [
+   120,
+   900
+  ],
+  "y": [
+   270,
+   1260
+  ]
+ },
+ "segments": [
+  {
+   "id": "S1",
+   "start": 0,
+   "end": 1.5,
+   "text": "Selalu tengok Fira dekat phone je kan?"
+  },
+  {
+   "id": "S2",
+   "start": 1.94,
+   "end": 2.74,
+   "text": "Tak nak tengok depan-depan?"
+  },
+  {
+   "id": "S3",
+   "start": 3.44,
+   "end": 5.6,
+   "text": "Dalam channel, you nampak setup yang Fira share tu."
+  },
+  {
+   "id": "S4",
+   "start": 5.92,
+   "end": 7.82,
+   "text": "Tapi macam mana Fira cari confirmation"
+  },
+  {
+   "id": "S5",
+   "start": 7.82,
+   "end": 9.74,
+   "text": "before Fira bagi setup tu?"
+  },
+  {
+   "id": "S6",
+   "start": 10.02,
+   "end": 11.6,
+   "text": "Yang ni, Fira nak you all tengok sendiri."
+  },
+  {
+   "id": "S7",
+   "start": 11.8,
+   "end": 14.18,
+   "text": "Daripada macam mana Fira open Fira Smart Desk,"
+  },
+  {
+   "id": "S8",
+   "start": 14.42,
+   "end": 16.9,
+   "text": "sampailah Fira chart zone dekat chart"
+  },
+  {
+   "id": "S9",
+   "start": 16.9,
+   "end": 18.72,
+   "text": "and then macam mana Fira tunggu confirmation"
+  },
+  {
+   "id": "S10",
+   "start": 18.72,
+   "end": 20.68,
+   "text": "before Fira consider untuk entry."
+  },
+  {
+   "id": "S11",
+   "start": 21.04,
+   "end": 22.86,
+   "text": "Kali ni, you duduk sama-sama dengan Fira,"
+  },
+  {
+   "id": "S12",
+   "start": 23.08,
+   "end": 24.3,
+   "text": "kita tengok chart sekali."
+  },
+  {
+   "id": "S13",
+   "start": 24.3,
+   "end": 27.1,
+   "text": "So, kalau you all nak tahu kenapa Fira pilih zone tu"
+  },
+  {
+   "id": "S14",
+   "start": 27.1,
+   "end": 29.14,
+   "text": "ataupun kenapa Fira tunggu dekat zone tu,"
+  },
+  {
+   "id": "S15",
+   "start": 29.4,
+   "end": 31.45,
+   "text": "you all boleh terus tanya direct."
+  },
+  {
+   "id": "S16",
+   "start": 31.49,
+   "end": 33,
+   "text": "And then barulah you nampak macam mana proses"
+  },
+  {
+   "id": "S17",
+   "start": 33,
+   "end": 34.45,
+   "text": "sebelum Fira bagi setup dalam channel tu."
+  },
+  {
+   "id": "S18",
+   "start": 34.48,
+   "end": 36.45,
+   "text": "Nak duduk trade sekali dengan Fira?"
+  },
+  {
+   "id": "S19",
+   "start": 36.48,
+   "end": 38.56,
+   "text": "Click link atas tu and join channel Fira."
+  },
+  {
+   "id": "S20",
+   "start": 38.82,
+   "end": 40.1,
+   "text": "Stand by for next event."
+  },
+  {
+   "id": "S21",
+   "start": 40.47,
+   "end": 42.55,
+   "text": "And lepas ni, tengok depan mata pula."
+  }
+ ],
+ "cards": [
+  {
+   "seg": "S1",
+   "neon": "clean",
+   "lead": "Selalu tengok Fira dekat",
+   "main": "Phone",
+   "sub": "je kan?"
+  },
+  {
+   "seg": "S2",
+   "zoom": 1.08,
+   "neon": "select",
+   "lead": "Tak nak tengok",
+   "main": "Depan-Depan?"
+  },
+  {
+   "seg": "S3",
+   "rows": [
+    [
+     "ital",
+     "Dalam channel, you nampak"
+    ],
+    [
+     "key",
+     "Setup Fira"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S4",
+   "rows": [
+    [
+     "ital",
+     "Tapi macam mana Fira cari"
+    ],
+    [
+     "key",
+     "Confirmation"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S5",
+   "rows": [
+    [
+     "ital",
+     "before Fira bagi"
+    ],
+    [
+     "key",
+     "Setup Tu?"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S6",
+   "neon": "oldmoney",
+   "lead": "Yang ni, Fira nak you all",
+   "main": "Tengok",
+   "sub": "sendiri."
+  },
+  {
+   "seg": "S7",
+   "rows": [
+    [
+     "ital",
+     "Daripada Fira open"
+    ],
+    [
+     "key",
+     "Fira Smart Desk"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S8",
+   "neon": "water",
+   "lead": "sampailah Fira chart",
+   "main": "Zone",
+   "sub": "dekat chart",
+   "subStyle": "small"
+  },
+  {
+   "seg": "S9",
+   "neon": "smooth",
+   "lead": "and then macam mana Fira",
+   "main": "Tunggu",
+   "sub": "confirmation",
+   "subStyle": "sans",
+   "size": {
+    "sub": 64
+   }
+  },
+  {
+   "seg": "S10",
+   "neon": "green",
+   "lead": "before Fira consider untuk",
+   "main": "Entry."
+  },
+  {
+   "seg": "S11",
+   "neon": "orange",
+   "lead": "Kali ni, you duduk",
+   "main": "Sama-Sama",
+   "sub": "dengan Fira"
+  },
+  {
+   "seg": "S12",
+   "neon": "blue",
+   "lead": "kita tengok",
+   "main": "Chart",
+   "sub": "sekali.",
+   "subStyle": "sans"
+  },
+  {
+   "seg": "S13",
+   "rows": [
+    [
+     "ital",
+     "kenapa Fira pilih"
+    ],
+    [
+     "key",
+     "Zone Tu"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S14",
+   "rows": [
+    [
+     "ital",
+     "kenapa Fira tunggu dekat"
+    ],
+    [
+     "key",
+     "Zone Tu"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S15",
+   "zoom": 1.12,
+   "neon": "clean",
+   "lead": "you all boleh terus",
+   "main": "Tanya",
+   "sub": "direct."
+  },
+  {
+   "seg": "S16",
+   "rows": [
+    [
+     "ital",
+     "barulah you nampak"
+    ],
+    [
+     "key",
+     "Macam Mana Proses"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S17",
+   "rows": [
+    [
+     "ital",
+     "sebelum Fira bagi setup"
+    ],
+    [
+     "key",
+     "Dalam Channel."
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S18",
+   "rows": [
+    [
+     "ital",
+     "Nak duduk trade sekali"
+    ],
+    [
+     "key",
+     "Dengan Fira?"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S19",
+   "neon": "water",
+   "lead": "Click link atas tu and join",
+   "main": "Channel Fira.",
+   "size": {
+    "main": 104
+   }
+  },
+  {
+   "seg": "S20",
+   "neon": "green",
+   "lead": "Stand by for",
+   "main": "Next Event."
+  },
+  {
+   "seg": "S21",
+   "zoom": 1.1,
+   "neon": "oldmoney",
+   "lead": "And lepas ni, tengok",
+   "main": "Depan Mata",
+   "sub": "pula."
+  }
+ ],
+ "broll": [
+  {
+   "id": "I1",
+   "type": "html",
+   "scene": "collage",
+   "start": 3.42,
+   "end": 5.94,
+   "tin": "iris",
+   "irisAt": [
+    540,
+    520
+   ],
+   "purpose": "dalam channel, nampak setup yang Fira share: paper collage, pinned Fira Worldwide note (Setup / Fira share), 3D eyes on nampak, paper plane on share",
+   "p": {
+    "bg": "paper",
+    "swoosh": true,
+    "head": "Dalam *channel*",
+    "headCue": "dalam",
+    "accCue": "channel",
+    "card": {
+     "title": "Fira Worldwide",
+     "logo": "assets/brand/fira-mark.png",
+     "x": 190,
+     "y": 580,
+     "rot": -2,
+     "items": [
+      {
+       "text": "Setup",
+       "cue": "setup",
+       "icon": "✦"
+      },
+      {
+       "text": "Fira share",
+       "cue": "share",
+       "icon": "↗"
+      }
+     ]
+    },
+    "objs": [
+     {
+      "src": "assets/objects/eyes.png",
+      "cue": "nampak",
+      "x": 640,
+      "y": 840,
+      "w": 250,
+      "rot": 8
+     },
+     {
+      "src": "assets/objects/plane.png",
+      "cue": "share",
+      "anim": "left",
+      "x": 130,
+      "y": 900,
+      "w": 360,
+      "rot": -8
+     }
+    ]
+   },
+   "tout": "iris"
+  },
+  {
+   "id": "I2",
+   "type": "html",
+   "scene": "collage",
+   "start": 5.94,
+   "end": 9.97,
+   "tin": "iris",
+   "irisAt": [
+    540,
+    414
+   ],
+   "tout": "flicker",
+   "purpose": "cari confirmation before bagi setup: ink scene, candles, magnifier slides onto the confirmation candle, SETUP line",
+   "p": {
+    "bg": "ink",
+    "head": "Fira cari *confirmation*",
+    "accCue": "confirmation",
+    "accSize": 100,
+    "chart": {
+     "y": 520,
+     "h": 600,
+     "zone": {
+      "text": ""
+     },
+     "confirm": {
+      "text": "CONFIRMATION",
+      "cue": "confirmation"
+     },
+     "entry": {
+      "text": "SETUP",
+      "cue": "setup"
+     }
+    },
+    "objs": [
+     {
+      "src": "assets/objects/magnifier.png",
+      "cue": "cari",
+      "anim": "right",
+      "x": 720,
+      "y": 520,
+      "w": 300,
+      "rot": 0,
+      "to": {
+       "x": 635,
+       "y": 776,
+       "cue": "confirmation"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "I3",
+   "type": "html",
+   "scene": "collage",
+   "start": 11.75,
+   "end": 14.4,
+   "tin": "pop",
+   "tout": "flicker",
+   "purpose": "open Fira Smart Desk: Fira app tile pops on open, red circle draws on smart, then the real phone footage",
+   "p": {
+    "bg": "paper",
+    "swoosh": true,
+    "head": "Open Fira *Smart Desk*",
+    "accCue": "smart",
+    "accSize": 110,
+    "tile": {
+     "src": "assets/brand/fira-mark.png",
+     "x": 370,
+     "y": 620
+    },
+    "circle": {
+     "x": 540,
+     "y": 790,
+     "r": 250,
+     "cue": "smart"
+    }
+   }
+  },
+  {
+   "id": "I4",
+   "type": "html",
+   "scene": "collage",
+   "start": 24.3,
+   "end": 29.33,
+   "tin": "iris",
+   "irisAt": [
+    540,
+    520
+   ],
+   "tout": "flicker",
+   "purpose": "kenapa pilih zone tu / tunggu dekat zone tu: thinking emoji on kenapa, zone box on zone, hourglass + TUNGGU on tunggu",
+   "p": {
+    "bg": "paper",
+    "head": "Kenapa pilih *zone tu?*",
+    "accCue": "zone",
+    "chart": {
+     "y": 540,
+     "h": 560,
+     "zone": {
+      "text": "ZONE",
+      "cue": "zone"
+     },
+     "wait": {
+      "text": "TUNGGU",
+      "cue": "tunggu"
+     }
+    },
+    "objs": [
+     {
+      "src": "assets/objects/thinking.png",
+      "cue": "kenapa",
+      "x": 70,
+      "y": 830,
+      "w": 220,
+      "rot": -8
+     },
+     {
+      "src": "assets/objects/hourglass.png",
+      "cue": "tunggu",
+      "x": 800,
+      "y": 700,
+      "w": 170,
+      "rot": 6
+     }
+    ],
+    "swoosh": true
+   }
+  },
+  {
+   "id": "I5",
+   "type": "html",
+   "scene": "collage",
+   "start": 31.45,
+   "end": 34.48,
+   "tin": "pop",
+   "irisAt": [
+    540,
+    560
+   ],
+   "tout": "flicker",
+   "purpose": "proses sebelum bagi setup dalam channel: pinned Proses note, the 4 steps she listed tick on",
+   "p": {
+    "bg": "paper",
+    "swoosh": true,
+    "head": "Macam mana *proses*",
+    "headCue": "macam",
+    "accCue": "proses",
+    "card": {
+     "title": "Proses Fira",
+     "logo": "assets/brand/fira-mark.png",
+     "x": 225,
+     "y": 560,
+     "rot": 2,
+     "items": [
+      {
+       "text": "Open Smart Desk",
+       "cue": "proses"
+      },
+      {
+       "text": "Chart zone",
+       "cue": "proses",
+       "dt": 0.3
+      },
+      {
+       "text": "Tunggu confirmation",
+       "cue": "proses",
+       "dt": 0.6
+      },
+      {
+       "text": "Setup dalam channel",
+       "cue": "setup"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "popups": [
+  {
+   "id": "PA",
+   "kind": "icon",
+   "behind": true,
+   "src": "assets/icons/people.png",
+   "start": 21.04,
+   "end": 22.9,
+   "cue": "sama-sama",
+   "lead": 0.4,
+   "x": 520,
+   "y": 330,
+   "size": 440,
+   "rise": 560,
+   "tilt": 10,
+   "purpose": "duduk sama-sama dengan Fira: 3D group icon from behind her shoulder"
+  },
+  {
+   "id": "PB",
+   "kind": "pills",
+   "behind": false,
+   "start": 34.48,
+   "end": 36.45,
+   "cue": "nak",
+   "lead": 0,
+   "title": "NAK DUDUK",
+   "titleY": 850,
+   "pills": [
+    {
+     "text": "Trade sekali",
+     "y": 955,
+     "cue": "trade"
+    },
+    {
+     "text": "Dengan Fira",
+     "y": 1095,
+     "cue": "dengan"
+    }
+   ],
+   "purpose": "invitation text popup; replaces A1 card"
+  },
+  {
+   "id": "PC",
+   "kind": "icon",
+   "behind": true,
+   "src": "assets/icons/link-cursor.png",
+   "start": 37.15,
+   "end": 38.6,
+   "cue": "atas",
+   "lead": 0,
+   "x": 520,
+   "y": 300,
+   "size": 440,
+   "rise": 560,
+   "tilt": -9,
+   "mouse": "link",
+   "purpose": "click link atas tu: 3D link + cursor (starts after the 37.1 cut)"
+  },
+  {
+   "id": "PD",
+   "kind": "icon",
+   "behind": true,
+   "src": "assets/icons/calendar.png",
+   "start": 38.82,
+   "end": 40.15,
+   "cue": "next",
+   "lead": 0.3,
+   "x": 540,
+   "y": 290,
+   "size": 440,
+   "rise": 560,
+   "tilt": 8,
+   "purpose": "next event: 3D calendar from behind her shoulder"
+  }
+ ],
+ "masks": [
+  {
+   "file": "assets/mask/PA_rb.mp4",
+   "start": 20.9,
+   "popup": "PA"
+  },
+  {
+   "file": "assets/mask/PC_rb.mp4",
+   "start": 37,
+   "popup": "PC"
+  },
+  {
+   "file": "assets/mask/PD_rb.mp4",
+   "start": 38.6667,
+   "popup": "PD"
+  }
+ ],
+ "endcard": {
+  "start": 42.6,
+  "captions": false
+ },
+ "sfx": {
+  "dir": "sfx/pro",
+  "bus_gain": 0.42,
+  "cinematic": true,
+  "peak_align": [
+   "whoosh",
+   "rise",
+   "swipe",
+   "magic",
+   "slide",
+   "riser",
+   "boom",
+   "hit"
+  ],
+  "gains": {
+   "impact": 0.8,
+   "magic": 0.8
+  },
+  "mode": "clean"
+ }
+}

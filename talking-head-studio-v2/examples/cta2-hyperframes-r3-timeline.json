@@ -1,0 +1,1174 @@
+{
+ "source": "C:/Users/muhai/OneDrive/Desktop/TEST TALKING/VIDEO 2/CONTENT 9 - CTA 2.mp4",
+ "output": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 45.29
+ },
+ "source_info": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "rotation": 0,
+  "audio": true
+ },
+ "notes": "CONTENT 9 - CTA 2. Real phone app footage 14.4-20.87 kept (captions only). Tail segment times re-transcribed from 28.5s. User confirmed: \"boleh terus tanya direct\", \"trade sekali\", \"Fira Smart Desk\".",
+ "accent": "#FF9A3C",
+ "broll_layer": "broll-iman.js",
+ "broll_style": "HyperFrames R4: dark leather, red glow type, outline glyphs, eye/beam, orbs, grey spotlight; fog / red sweep / phone match-cut",
+ "caption_style": "R3 lime bold (reference R3)",
+ "safe_area": {
+  "platforms": "TikTok + Instagram Reels",
+  "x": [
+   120,
+   900
+  ],
+  "y": [
+   270,
+   1260
+  ]
+ },
+ "segments": [
+  {
+   "id": "S1",
+   "start": 0,
+   "end": 1.5,
+   "text": "Selalu tengok Fira dekat phone je kan?"
+  },
+  {
+   "id": "S2",
+   "start": 1.94,
+   "end": 2.74,
+   "text": "Tak nak tengok depan-depan?"
+  },
+  {
+   "id": "S3",
+   "start": 3.44,
+   "end": 5.6,
+   "text": "Dalam channel, you nampak setup yang Fira share tu."
+  },
+  {
+   "id": "S4",
+   "start": 5.92,
+   "end": 7.82,
+   "text": "Tapi macam mana Fira cari confirmation"
+  },
+  {
+   "id": "S5",
+   "start": 7.82,
+   "end": 9.74,
+   "text": "before Fira bagi setup tu?"
+  },
+  {
+   "id": "S6",
+   "start": 10.02,
+   "end": 11.6,
+   "text": "Yang ni, Fira nak you all tengok sendiri."
+  },
+  {
+   "id": "S7",
+   "start": 11.8,
+   "end": 14.18,
+   "text": "Daripada macam mana Fira open Fira Smart Desk,"
+  },
+  {
+   "id": "S8",
+   "start": 14.42,
+   "end": 16.9,
+   "text": "sampailah Fira chart zone dekat chart"
+  },
+  {
+   "id": "S9",
+   "start": 16.9,
+   "end": 18.72,
+   "text": "and then macam mana Fira tunggu confirmation"
+  },
+  {
+   "id": "S10",
+   "start": 18.72,
+   "end": 20.68,
+   "text": "before Fira consider untuk entry."
+  },
+  {
+   "id": "S11",
+   "start": 21.04,
+   "end": 22.86,
+   "text": "Kali ni, you duduk sama-sama dengan Fira,"
+  },
+  {
+   "id": "S12",
+   "start": 23.08,
+   "end": 24.3,
+   "text": "kita tengok chart sekali."
+  },
+  {
+   "id": "S13",
+   "start": 24.3,
+   "end": 27.1,
+   "text": "So, kalau you all nak tahu kenapa Fira pilih zone tu"
+  },
+  {
+   "id": "S14",
+   "start": 27.1,
+   "end": 29.14,
+   "text": "ataupun kenapa Fira tunggu dekat zone tu,"
+  },
+  {
+   "id": "S15",
+   "start": 29.4,
+   "end": 31.45,
+   "text": "you all boleh terus tanya direct."
+  },
+  {
+   "id": "S16",
+   "start": 31.49,
+   "end": 33,
+   "text": "And then barulah you nampak macam mana proses"
+  },
+  {
+   "id": "S17",
+   "start": 33,
+   "end": 34.45,
+   "text": "sebelum Fira bagi setup dalam channel tu."
+  },
+  {
+   "id": "S18",
+   "start": 34.48,
+   "end": 36.45,
+   "text": "Nak duduk trade sekali dengan Fira?"
+  },
+  {
+   "id": "S19",
+   "start": 36.48,
+   "end": 38.56,
+   "text": "Click link atas tu and join channel Fira."
+  },
+  {
+   "id": "S20",
+   "start": 38.82,
+   "end": 40.1,
+   "text": "Stand by for next event."
+  },
+  {
+   "id": "S21",
+   "start": 40.47,
+   "end": 42.55,
+   "text": "And lepas ni, tengok depan mata pula."
+  }
+ ],
+ "cards": [
+  {
+   "seg": "S1",
+   "r3": true,
+   "lead": "Selalu tengok Fira dekat",
+   "key": "Phone",
+   "sub": "je kan?",
+   "strike": true
+  },
+  {
+   "seg": "S2",
+   "r3": true,
+   "lead": "Tak nak tengok",
+   "key": "Depan-Depan?",
+   "zoom": 1.08
+  },
+  {
+   "seg": "S3",
+   "rows": [
+    [
+     "ital",
+     "Dalam channel, you nampak"
+    ],
+    [
+     "key",
+     "Setup Fira"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S4",
+   "rows": [
+    [
+     "ital",
+     "Tapi macam mana Fira cari"
+    ],
+    [
+     "key",
+     "Confirmation"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S5",
+   "rows": [
+    [
+     "ital",
+     "before Fira bagi"
+    ],
+    [
+     "key",
+     "Setup Tu?"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S6",
+   "r3": true,
+   "lead": "Yang ni, Fira nak you all",
+   "key": "Tengok Sendiri."
+  },
+  {
+   "seg": "S7",
+   "rows": [
+    [
+     "ital",
+     "Daripada Fira open"
+    ],
+    [
+     "key",
+     "Fira Smart Desk"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S8",
+   "r3": true,
+   "lead": "sampailah Fira chart",
+   "key": "Zone",
+   "sub": "dekat chart"
+  },
+  {
+   "seg": "S9",
+   "r3": true,
+   "lead": "and then macam mana Fira",
+   "key": "Tunggu",
+   "sub": "confirmation"
+  },
+  {
+   "seg": "S10",
+   "r3": true,
+   "lead": "before Fira consider untuk",
+   "key": "Entry."
+  },
+  {
+   "seg": "S11",
+   "r3": true,
+   "lead": "Kali ni, you duduk",
+   "key": "Sama-Sama",
+   "sub": "dengan Fira"
+  },
+  {
+   "seg": "S12",
+   "r3": true,
+   "lead": "kita tengok",
+   "key": "Chart",
+   "sub": "sekali."
+  },
+  {
+   "seg": "S13",
+   "rows": [
+    [
+     "ital",
+     "kenapa Fira pilih"
+    ],
+    [
+     "key",
+     "Zone Tu"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S14",
+   "rows": [
+    [
+     "ital",
+     "kenapa Fira tunggu dekat"
+    ],
+    [
+     "key",
+     "Zone Tu"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S15",
+   "r3": true,
+   "lead": "you all boleh terus",
+   "key": "Tanya Direct.",
+   "zoom": 1.12
+  },
+  {
+   "seg": "S16",
+   "rows": [
+    [
+     "ital",
+     "barulah you nampak"
+    ],
+    [
+     "key",
+     "Macam Mana Proses"
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S17",
+   "rows": [
+    [
+     "ital",
+     "sebelum Fira bagi setup"
+    ],
+    [
+     "key",
+     "Dalam Channel."
+    ]
+   ],
+   "hide": true
+  },
+  {
+   "seg": "S18",
+   "r3": true,
+   "lead": "Nak duduk",
+   "key": "Trade Sekali",
+   "sub": "dengan Fira?"
+  },
+  {
+   "seg": "S19",
+   "r3": true,
+   "lead": "Click link atas tu and join",
+   "key": "Channel Fira.",
+   "icon": "send",
+   "size": {
+    "key": 108
+   }
+  },
+  {
+   "seg": "S20",
+   "r3": true,
+   "lead": "Stand by for",
+   "key": "Next Event."
+  },
+  {
+   "seg": "S21",
+   "r3": true,
+   "lead": "And lepas ni, tengok",
+   "key": "Depan Mata",
+   "sub": "pula.",
+   "zoom": 1.1
+  }
+ ],
+ "broll": [
+  {
+   "id": "I1",
+   "type": "video",
+   "raw": true,
+   "file": "hf/renders/i1.mp4",
+   "scene": "hyperframes",
+   "start": 3.14,
+   "end": 5.92,
+   "tin": "fog",
+   "tout": "fog",
+   "sfxIn": 0.3,
+   "sfxOut": 0.02,
+   "accents": [
+    {
+     "t": 0.971,
+     "type": "iconpop"
+    },
+    {
+     "t": 1.783,
+     "type": "select"
+    }
+   ],
+   "purpose": "Nampak setup yang Fira share: fog in; eye opens on nampak; red beam + sliding SETUP on setup; channel card slides into the beam on share; fog into the next scene",
+   "hf": "hf/compositions/i1.html",
+   "cues": [
+    {
+     "t": 0.3,
+     "type": "whoosh",
+     "gain": 0.5,
+     "pr": 3
+    },
+    {
+     "t": 0.3,
+     "type": "sub",
+     "gain": 0.4,
+     "pr": 3
+    },
+    {
+     "t": 0.36,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 0.416,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 0.472,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 0.528,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 0.584,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 0.64,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 0.696,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 0.752,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 0.808,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 0.864,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 0.92,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 0.976,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 1.032,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 1.218,
+     "type": "deep",
+     "gain": 0.55,
+     "pr": 2
+    },
+    {
+     "t": 2.78,
+     "type": "whoosh",
+     "gain": 0.5,
+     "pr": 3
+    }
+   ]
+  },
+  {
+   "id": "I2",
+   "type": "video",
+   "raw": true,
+   "file": "hf/renders/i2.mp4",
+   "scene": "hyperframes",
+   "start": 5.92,
+   "end": 10.12,
+   "tin": "fog",
+   "tout": "sweep",
+   "sfxIn": 1.9,
+   "sfxOut": 0.3,
+   "accents": [
+    {
+     "t": 1.077,
+     "type": "select"
+    },
+    {
+     "t": 2.928,
+     "type": "iconpop"
+    }
+   ],
+   "purpose": "Macam mana cari confirmation: outline question marks + sliding red confirmation; fog cut to masked figure, red orbs circle it on setup; red polygon sweep back to the face",
+   "hf": "hf/compositions/i2.html",
+   "cues": [
+    {
+     "t": 0,
+     "type": "whoosh",
+     "gain": 0.5,
+     "pr": 3
+    },
+    {
+     "t": 0.2,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 0.256,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 0.312,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 0.368,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 0.424,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 0.48,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 0.536,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 0.592,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 0.648,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 0.704,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 0.76,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 0.816,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 0.872,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 1.077,
+     "type": "deep",
+     "gain": 0.55,
+     "pr": 2
+    },
+    {
+     "t": 1.9,
+     "type": "whoosh",
+     "gain": 0.5,
+     "pr": 3
+    },
+    {
+     "t": 1.9,
+     "type": "sub",
+     "gain": 0.4,
+     "pr": 3
+    },
+    {
+     "t": 2,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 2.056,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 2.112,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 2.168,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 2.224,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 2.28,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 2.336,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 2.392,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 2.928,
+     "type": "deep",
+     "gain": 0.55,
+     "pr": 2
+    },
+    {
+     "t": 3.87,
+     "type": "whoosh",
+     "gain": 0.5,
+     "pr": 3
+    }
+   ]
+  },
+  {
+   "id": "I3",
+   "type": "video",
+   "raw": true,
+   "file": "hf/renders/i3.mp4",
+   "scene": "hyperframes",
+   "start": 11.45,
+   "end": 14.75,
+   "tin": "phone",
+   "tout": "zoom-through",
+   "sfxIn": 0.5,
+   "sfxOut": 0.5,
+   "accents": [
+    {
+     "t": 1.856,
+     "type": "iconpop"
+    }
+   ],
+   "purpose": "Open Fira Smart Desk: A-roll mapped into a phone on dark leather, red-glow app tile and toggle; zoom-through into the real phone footage",
+   "hf": "hf/compositions/i3.html",
+   "cues": [
+    {
+     "t": 0.7,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 0.756,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 0.812,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 0.868,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 0.924,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 0.98,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 1.036,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 1.092,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 1.148,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 1.204,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 1.26,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 1.316,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 1.372,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 1.428,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 1.484,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 1.856,
+     "type": "deep",
+     "gain": 0.55,
+     "pr": 2
+    }
+   ]
+  },
+  {
+   "id": "I4",
+   "type": "video",
+   "raw": true,
+   "file": "hf/renders/i4.mp4",
+   "scene": "hyperframes",
+   "start": 24,
+   "end": 29.6,
+   "tin": "sweep",
+   "tout": "fog",
+   "sfxIn": 0.25,
+   "sfxOut": 0.25,
+   "accents": [
+    {
+     "t": 2.321,
+     "type": "select"
+    },
+    {
+     "t": 3.926,
+     "type": "iconpop"
+    }
+   ],
+   "purpose": "Kenapa pilih zone / tunggu: red polygon sweep into the grey spotlight scene, rotating outline asterisks, ZONE TU and TUNGGU push in huge, hourglass flips; fog back to the face",
+   "hf": "hf/compositions/i4.html",
+   "cues": [
+    {
+     "t": 0.26,
+     "type": "whoosh",
+     "gain": 0.5,
+     "pr": 3
+    },
+    {
+     "t": 1.512,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 1.568,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 1.624,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 1.68,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 1.736,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 1.792,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 1.848,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 1.904,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 1.96,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 2.321,
+     "type": "deep",
+     "gain": 0.55,
+     "pr": 2
+    },
+    {
+     "t": 3.1,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 3.156,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 3.212,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 3.268,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 3.324,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 3.38,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 3.436,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 3.492,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 3.548,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 3.604,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 3.926,
+     "type": "deep",
+     "gain": 0.55,
+     "pr": 2
+    },
+    {
+     "t": 5.35,
+     "type": "whoosh",
+     "gain": 0.5,
+     "pr": 3
+    },
+    {
+     "t": 5.35,
+     "type": "sub",
+     "gain": 0.4,
+     "pr": 3
+    }
+   ]
+  },
+  {
+   "id": "I5",
+   "type": "video",
+   "raw": true,
+   "file": "hf/renders/i5.mp4",
+   "scene": "hyperframes",
+   "start": 31.15,
+   "end": 34.78,
+   "tin": "sweep",
+   "tout": "sweep",
+   "sfxIn": 0.25,
+   "sfxOut": 0.3,
+   "accents": [
+    {
+     "t": 1.428,
+     "type": "select"
+    }
+   ],
+   "purpose": "Proses sebelum setup: red sweep into dark leather, red PROSES, four glowing orb steps on a red rail; red sweep back to the face",
+   "hf": "hf/compositions/i5.html",
+   "cues": [
+    {
+     "t": 0.26,
+     "type": "whoosh",
+     "gain": 0.5,
+     "pr": 3
+    },
+    {
+     "t": 0.45,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 0.494,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 0.538,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 0.582,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 0.626,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 0.67,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 0.714,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 0.758,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 0.802,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 0.846,
+     "type": "key1",
+     "gain": 0.4
+    },
+    {
+     "t": 0.89,
+     "type": "key2",
+     "gain": 0.32
+    },
+    {
+     "t": 0.934,
+     "type": "key3",
+     "gain": 0.4
+    },
+    {
+     "t": 0.978,
+     "type": "key1",
+     "gain": 0.32
+    },
+    {
+     "t": 1.022,
+     "type": "key2",
+     "gain": 0.4
+    },
+    {
+     "t": 1.066,
+     "type": "key3",
+     "gain": 0.32
+    },
+    {
+     "t": 1.428,
+     "type": "deep",
+     "gain": 0.55,
+     "pr": 2
+    },
+    {
+     "t": 3.09,
+     "type": "whoosh",
+     "gain": 0.5,
+     "pr": 3
+    }
+   ]
+  }
+ ],
+ "popups": [
+  {
+   "id": "PA",
+   "kind": "icon",
+   "behind": true,
+   "src": "assets/icons/r4-people_t.png",
+   "start": 21.04,
+   "end": 22.9,
+   "cue": "sama-sama",
+   "lead": 0.3,
+   "x": 68,
+   "y": 256,
+   "size": 400,
+   "rise": 760,
+   "tilt": 9,
+   "glow": "rgba(255,30,30,.75)",
+   "purpose": "sama-sama dengan Fira: dark-glass people icon rises high behind her head"
+  },
+  {
+   "id": "PE",
+   "kind": "icon",
+   "behind": true,
+   "src": "assets/icons/r4-chat_t.png",
+   "start": 29.4,
+   "end": 31.45,
+   "cue": "tanya",
+   "lead": 0.3,
+   "x": 704,
+   "y": 256,
+   "size": 320,
+   "rise": 760,
+   "tilt": -8,
+   "glow": "rgba(255,30,30,.75)",
+   "purpose": "tanya direct: dark-glass chat bubble rises behind her head"
+  },
+  {
+   "id": "PC",
+   "kind": "icon",
+   "behind": true,
+   "src": "assets/icons/r4-link_t.png",
+   "start": 37.15,
+   "end": 38.6,
+   "cue": "atas",
+   "lead": 0,
+   "x": 62,
+   "y": 256,
+   "size": 440,
+   "rise": 760,
+   "tilt": -9,
+   "glow": "rgba(255,30,30,.75)",
+   "mouse": "link",
+   "purpose": "click link atas tu: dark-glass link + cursor behind her head"
+  },
+  {
+   "id": "PD",
+   "kind": "icon",
+   "behind": true,
+   "src": "assets/icons/r4-calendar_t.png",
+   "start": 38.82,
+   "end": 40.15,
+   "cue": "next",
+   "lead": 0.3,
+   "x": 68,
+   "y": 256,
+   "size": 400,
+   "rise": 760,
+   "tilt": 8,
+   "glow": "rgba(255,30,30,.75)",
+   "purpose": "next event: dark-glass calendar behind her head"
+  },
+  {
+   "id": "RING",
+   "kind": "ring",
+   "behind": false,
+   "start": 1.94,
+   "end": 3.0900000000000003,
+   "cue": "depan",
+   "lead": 0.05,
+   "x": 540,
+   "y": 520,
+   "r": 250,
+   "purpose": "R3 circle around her face on depan-depan"
+  }
+ ],
+ "masks": [
+  {
+   "file": "assets/mask/PA_rb.mp4",
+   "start": 20.9,
+   "popup": "PA"
+  },
+  {
+   "file": "assets/mask/PE_rb.mp4",
+   "start": 29.2667,
+   "popup": "PE"
+  },
+  {
+   "file": "assets/mask/PC_rb.mp4",
+   "start": 37,
+   "popup": "PC"
+  },
+  {
+   "file": "assets/mask/PD_rb.mp4",
+   "start": 38.6667,
+   "popup": "PD"
+  }
+ ],
+ "endcard": {
+  "start": 42.6,
+  "captions": false
+ },
+ "sfx": {
+  "dir": "sfx/pro",
+  "bus_gain": 0.42,
+  "cinematic": true,
+  "peak_align": [
+   "whoosh",
+   "rise",
+   "swipe",
+   "magic",
+   "slide",
+   "riser",
+   "boom",
+   "hit"
+  ],
+  "gains": {
+   "impact": 0.8,
+   "magic": 0.8
+  },
+  "mode": "clean",
+  "drone": true,
+  "r3keys": true
+ },
+ "duck": [
+  {
+   "seg": "S2",
+   "t": 1.7,
+   "d": 0.22
+  },
+  {
+   "seg": "S15",
+   "t": 29.16,
+   "d": 0.22
+  },
+  {
+   "seg": "S21",
+   "t": 40.23,
+   "d": 0.22
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- A1 caption grammar: white lead (upright or light italic) + yellow glowing Montserrat keywords,
+     glow box with side rules, dashed connector to a pill, dotted list, glow underline, wipe exits. -->
+<style>
+@font-face{font-family:'Ital';src:url('fonts/Inter_18pt-LightItalic.ttf')}
+@font-face{font-family:'Lead';src:url('fonts/Montserrat-Medium.otf')}
+@font-face{font-family:'Semi';src:url('fonts/Montserrat-SemiBold.otf')}
+@font-face{font-family:'Key';src:url('fonts/Montserrat-Bold.otf')}
+:root{--gold:#FFE01A;--glow1:rgba(255,214,0,.85);--glow2:rgba(255,190,0,.45)}
+html,body{margin:0;width:1080px;height:1920px;background:transparent;overflow:hidden}
+/* Safe area for TikTok + Instagram Reels (1080x1920): x 120-900, y 270-1260 (right button column and bottom UI avoided). */
+.card{position:absolute;left:120px;right:180px;top:var(--y);transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;text-align:center}
+.row{display:flex;flex-wrap:nowrap;white-space:nowrap;justify-content:center;align-items:baseline;position:relative;margin:2px 0}
+.w{display:inline-block;margin:0 .12em;will-change:transform,opacity,filter,clip-path}
+.lead{font-family:'Lead';font-size:var(--lead,54px);color:#fff;text-shadow:0 0 10px rgba(255,255,255,.35),0 2px 10px rgba(0,0,0,.8)}
+.ital{font-family:'Ital';font-size:var(--lead,56px);color:#fff;text-shadow:0 0 8px rgba(255,255,255,.3),0 2px 10px rgba(0,0,0,.8)}
+.boxw{font-family:'Semi';font-size:var(--boxw,74px);color:#fff;text-shadow:0 0 10px rgba(255,255,255,.35),0 2px 10px rgba(0,0,0,.7)}
+.key{font-family:'Key';font-size:var(--key,112px);line-height:1.04;color:var(--gold);text-shadow:0 0 6px var(--glow1),0 0 22px var(--glow2),0 0 44px var(--glow2),0 4px 14px rgba(0,0,0,.65)}
+.inbox .key{font-size:var(--boxk,84px)}
+.item{font-size:var(--item,104px);line-height:1.0}
+.box{position:relative;padding:12px 40px 20px;margin-top:14px}
+.frame{position:absolute;inset:0;border:3px solid rgba(255,255,255,.95);border-radius:26px;background:rgba(0,0,0,.28);
+  box-shadow:0 0 10px rgba(255,255,255,.55),0 0 26px rgba(255,214,0,.35),inset 0 0 12px rgba(255,255,255,.18)}
+.pill{position:relative;padding:8px 44px 16px;margin-top:4px}
+.pill .frame{border:4px solid var(--gold);border-radius:999px;background:rgba(0,0,0,.35);box-shadow:0 0 12px var(--glow1),0 0 30px var(--glow2),inset 0 0 14px rgba(255,214,0,.25)}
+.rule{position:absolute;top:58%;height:5px;width:86px;background:var(--gold);border-radius:3px;box-shadow:0 0 8px var(--glow1),0 0 18px var(--glow2)}
+.dotm{position:absolute;top:50%;width:14px;height:14px;background:var(--gold);box-shadow:0 0 8px var(--glow1);margin-top:-4px}
+.conn{width:0;height:120px;border-left:5px dashed var(--gold);filter:drop-shadow(0 0 6px var(--glow1));margin:6px 0}
+.uline{position:absolute;left:4%;right:4%;bottom:-6px;height:6px;border-radius:3px;background:linear-gradient(90deg,rgba(255,255,255,.2),#fff 30%,var(--gold) 70%,rgba(255,224,26,.2));box-shadow:0 0 10px var(--glow1),0 0 22px var(--glow2)}
+.icon{font-size:var(--key,112px);display:inline-block;width:.9em;height:.9em;margin-right:.25em;vertical-align:-.1em}
+.icon svg{width:100%;height:100%;filter:drop-shadow(0 0 6px var(--glow1))}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+</style></head>
+<body><div id="broll"></div><div id="stage"></div><div id="flash"></div>
+<script>
+// Pure function of time: setup(timeline) builds DOM once; renderAt(t) poses every element for time t.
+const clamp=x=>Math.min(Math.max(x,0),1), ease=x=>1-Math.pow(1-clamp(x),3);
+const FR=1/30;
+const ICONS={
+  link:'<svg viewBox="0 0 24 24" fill="none" stroke="#FFE01A" stroke-width="2.6" stroke-linecap="round"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>',
+  cal:'<svg viewBox="0 0 24 24" fill="none" stroke="#FFE01A" stroke-width="2.4" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>'
+};
+const JIT=[[0,1],[-5,1.03],[4,0.97],[-9,1],[3,1.02]]; // A1 keyword words sit at slightly different heights/sizes
+let TL,cards=[];
+window.setup=(tl)=>{
+  TL=tl;const segs=Object.fromEntries(tl.segments.map(s=>[s.id,s]));const stage=document.getElementById('stage');
+  tl.cards.forEach((c,ci)=>{
+    if(c.hide)return; // a B-roll part carries its own B1 typography
+    const seg=segs[c.seg];const nx=tl.cards[ci+1]?segs[tl.cards[ci+1].seg]:null;
+    const end=nx?Math.min(nx.start-0.15,seg.end+0.9):Math.min(seg.end+0.6,tl.endcard.start-0.15);
+    const el=document.createElement('div');el.className='card';el.style.setProperty('--y',(c.y||0.555)*1920+'px');
+    if(c.size)Object.entries(c.size).forEach(([k,v])=>el.style.setProperty('--'+k,v+'px'));
+    const items=[]; // {el,kind,t?,attach}
+    c.rows.forEach(r=>{
+      const [spec,text]=r;const f=spec.split(' ');const base=f[0];
+      if(base==='conn'){const d=document.createElement('div');d.className='conn';el.appendChild(d);items.push({el:d,kind:'conn',attach:'next'});return;}
+      const row=document.createElement('div');row.className='row';
+      if(base==='box'||base==='pill'){const wrap=document.createElement('div');wrap.className=base+' inbox';const fr=document.createElement('div');fr.className='frame';wrap.appendChild(fr);
+        items.push({el:fr,kind:base==='box'?'box':'pillframe',attach:base==='box'?'card':'nextword'});wrap.appendChild(row);el.appendChild(wrap);}
+      else el.appendChild(row);
+      const plain=base==='box'?'boxw':base==='pill'?(text.includes('*')?'boxw':'key'):base;
+      const ic=f.find(x=>x.startsWith('icon:'));
+      if(ic){const s=document.createElement('span');s.className='w icon';s.innerHTML=ICONS[ic.slice(5)];row.appendChild(s);items.push({el:s,kind:'icon',attach:'nextword'});}
+      let kIdx=0;
+      text.split(' ').forEach(tok=>{const isKey=tok.startsWith('*')||plain==='key';const word=tok.replace(/^\*/,'');
+        const s=document.createElement('span');s.className='w '+(isKey?'key':plain)+(f.includes('item')?' item':'');s.textContent=word;row.appendChild(s);
+        const it={el:s,kind:isKey?'key':'lead',text:word};if(isKey){it.jit=JIT[kIdx++%JIT.length];}items.push(it);});
+      if(f.includes('rules'))[-1,1].forEach(sd=>{const d=document.createElement('div');d.className='rule';d.style[sd<0?'right':'left']='calc(100% + 16px)';row.appendChild(d);items.push({el:d,kind:'rule',attach:'card'});});
+      if(f.includes('dots'))[-1,1].forEach(sd=>{const d=document.createElement('div');d.className='dotm';d.style[sd<0?'right':'left']='calc(100% + 6px)';row.appendChild(d);items.push({el:d,kind:'dot',attach:'card'});});
+      if(f.includes('underline')){const u=document.createElement('div');u.className='uline';row.appendChild(u);items.push({el:u,kind:'uline',attach:'prev'});}
+    });
+    // word timing: share of characters within the spoken segment
+    const words=items.filter(i=>i.text!==undefined);const total=words.reduce((a,w)=>a+w.text.length+1,0);let acc=0;
+    words.forEach(w=>{w.t=seg.start+(seg.end-seg.start)*0.8*acc/total;acc+=w.text.length+1;});
+    items.forEach((it,i)=>{
+      if(it.attach==='card')it.t=seg.start-0.06;
+      if(it.attach==='next'||it.attach==='nextword'){const n=items.slice(i+1).find(x=>x.text!==undefined);it.t=(n?n.t:seg.start)-(it.attach==='next'?0.22:0.04);}
+      if(it.attach==='prev'){const p=items.slice(0,i).reverse().find(x=>x.text!==undefined);it.t=(p?p.t:seg.start)+0.08;}
+    });
+    stage.appendChild(el);cards.push({el,start:seg.start-0.08,end,items});
+  });
+  setupBroll(tl);
+};
+// Subtitles stay at 1-2 lines: rows never wrap; a row wider than the safe width is zoomed down to fit.
+window.fitRows=()=>{const max=780;document.querySelectorAll('#stage .row').forEach(r=>{r.style.zoom=1;const w=r.scrollWidth;if(w>max)r.style.zoom=(max/w).toFixed(3);});};
+window.renderAt=(t)=>{
+  renderBroll(t);
+  cards.forEach(k=>{
+    const vis=t>=k.start&&t<k.end+5*FR;k.el.style.display=vis?'flex':'none';if(!vis)return;
+    const out=clamp((t-k.end)/(4*FR)); // A1 exit: wipe away left -> right over ~4 frames
+    k.el.style.clipPath=out>0?`inset(-300px -300px -300px ${-300+out*1500}px)`:'none';
+    k.items.forEach(it=>{
+      const d=t-it.t;const s=it.el.style;let op=1,tf='',fl='none',cp='none';
+      if(it.kind==='lead'){const p=ease(d/(4*FR));op=p;tf=`translateY(${(1-p)*12}px)`;if(p<1)fl=`blur(${(1-p)*4}px)`;}
+      else if(it.kind==='key'){const p=ease(d/(4*FR)),q=ease(d/(7*FR));const [jy,js]=it.jit;
+        op=d>=0?1:0;cp=`inset(-40% ${(1-p)*100}% -40% -10%)`;tf=`translateY(${jy}px) scale(${js*(1.14-0.14*q)})`;}
+      else if(it.kind==='box'){const p=ease(d/(7*FR));op=p;tf=`rotate(${(1-p)*-6}deg) scale(${1.16-0.16*p})`;}
+      else if(it.kind==='pillframe'){const p=ease(d/(6*FR));op=p;tf=`scale(${1.12-0.12*p})`;}
+      else if(it.kind==='rule'){const p=ease(d/(6*FR));op=p;tf=`scaleX(${p})`;}
+      else if(it.kind==='dot'){const p=ease(d/(4*FR));op=p;tf=`scale(${p})`;}
+      else if(it.kind==='conn'){const p=ease(d/(6*FR));op=d>=0?1:0;cp=`inset(0 -20px ${(1-p)*100}% -20px)`;}
+      else if(it.kind==='uline'){const p=ease(d/(6*FR));op=d>=0?1:0;cp=`inset(-20px ${(1-p)*100}% -20px -20px)`;}
+      else if(it.kind==='icon'){const p=ease(d/(6*FR));op=p;tf=`scale(${0.5+0.5*p}) rotate(${(1-p)*-20}deg)`;}
+      s.opacity=op;s.transform=tf;s.filter=fl;s.clipPath=cp;
+    });
+  });
+  let f=0;TL.broll.forEach(b=>[b.start,b.end].forEach(c=>{const d=Math.abs(t-c);if(d<0.07)f=Math.max(f,0.85*(1-d/0.07));}));
+  document.getElementById('flash').style.opacity=f;
+};
+</script></body></html>

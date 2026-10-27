@@ -1,0 +1,170 @@
+{
+  "version": 2,
+  "font_identity": "unconfirmed",
+  "sources": [
+    {
+      "id": "B1",
+      "duration_seconds": 49.998005,
+      "width": 720,
+      "height": 1280,
+      "fps": 25,
+      "purpose": "Black-and-gold B-roll visual grammar",
+      "filename": "From Klickpin.com- From beginner to obsessed Recreate these fresh festive table ideas that look high-end but stay practical for a stylish result t.mp4",
+      "original_path": "C:\\Users\\muhai\\Downloads\\From Klickpin.com- From beginner to obsessed Recreate these fresh festive table ideas that look high-end but stay practical for a stylish result t.mp4",
+      "sha256": "fa8c7256e48fd15281d819d11988bfde4bc83629e488acae658d2a924d2b1bda",
+      "included_in_package": false,
+      "audio": "aac stereo 44100 Hz",
+      "hard_cuts_seconds": [
+        21.88,
+        25.76,
+        33.64,
+        44.76
+      ]
+    },
+    {
+      "id": "A1",
+      "duration_seconds": 22.0561,
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "purpose": "A-roll subtitle reference; use AFTER or My work panel only",
+      "filename": "80x more views with pro editing.This SPH Auto Parts video grew from 1K to 80K views.DM us for hi.mp4",
+      "original_path": "C:\\Users\\muhai\\Downloads\\80x more views with pro editing.This SPH Auto Parts video grew from 1K to 80K views.DM us for hi.mp4",
+      "sha256": "c802810e01fbd3bf56cee816b9396ca0e462ba06733e5026bdd1ee7662306a66",
+      "included_in_package": false,
+      "audio": "aac stereo 44100 Hz",
+      "hard_cuts_seconds": [
+        3.3,
+        7,
+        12.27,
+        16.7
+      ],
+      "panel_crop_px": {
+        "x": 281,
+        "y": 211,
+        "w": 358,
+        "h": 637,
+        "aspect": "9:16",
+        "panel": "AFTER"
+      }
+    },
+    {
+      "id": "A2",
+      "duration_seconds": 18.619546,
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "purpose": "A-roll subtitle reference; use AFTER or My work panel only",
+      "filename": "50x more views.We pushed this video from 1K to 50K views with a stronger hook and better retenti.mp4",
+      "original_path": "C:\\Users\\muhai\\Downloads\\50x more views.We pushed this video from 1K to 50K views with a stronger hook and better retenti.mp4",
+      "sha256": "87c0d2d87be55ca6c96f516017fbcfe6a2bff9645475834a688a23ab6af7f6fe",
+      "included_in_package": false,
+      "audio": "aac stereo 44100 Hz",
+      "hard_cuts_seconds": [
+        4.1,
+        8.17,
+        11.7,
+        15.5
+      ],
+      "panel_crop_px": {
+        "x": 281,
+        "y": 211,
+        "w": 358,
+        "h": 637,
+        "aspect": "9:16",
+        "panel": "AFTER"
+      }
+    },
+    {
+      "id": "A3",
+      "duration_seconds": 24.212042,
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "purpose": "A-roll subtitle reference and editorial insert reference; use My work panel only",
+      "filename": "DM me “Free Sample” and I’ll edit the hook of one of your upcoming videos for freeI’m only doing.mp4",
+      "original_path": "C:\\Users\\muhai\\Downloads\\DM me “Free Sample” and I’ll edit the hook of one of your upcoming videos for freeI’m only doing.mp4",
+      "sha256": "974a81ba80f06f72e1c1288dbfd6e219d5f17a8cc9d3694ce0dec1e244369e9c",
+      "included_in_package": false,
+      "audio": "aac stereo 48000 Hz",
+      "hard_cuts_seconds": [
+        1.17,
+        2.1,
+        3.13,
+        5.33,
+        8.23,
+        10.93
+      ],
+      "panel_crop_px": {
+        "x": 59,
+        "y": 229,
+        "w": 602,
+        "h": 338,
+        "aspect": "16:9",
+        "panel": "My work"
+      }
+    },
+    {
+      "id": "A4",
+      "duration_seconds": 21.566708,
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "purpose": "A-roll subtitle reference and editorial insert reference; use My work panel only",
+      "filename": "DM me “Free Sample” and I’ll edit the hook of one of your upcoming videos for free I’m only doin.mp4",
+      "original_path": "C:\\Users\\muhai\\Downloads\\DM me “Free Sample” and I’ll edit the hook of one of your upcoming videos for free I’m only doin.mp4",
+      "sha256": "9dc8ff1b248d40e099a6f6d402367bb67e03d09546515392ac3f131ddf5e2b74",
+      "included_in_package": false,
+      "audio": "aac stereo 48000 Hz",
+      "hard_cuts_seconds": [
+        0.63,
+        2.1,
+        3.43,
+        5.83,
+        9.33,
+        10.33,
+        11.57,
+        12.93,
+        14.8,
+        17.33,
+        19.37
+      ],
+      "panel_crop_px": {
+        "x": 59,
+        "y": 229,
+        "w": 602,
+        "h": 338,
+        "aspect": "16:9",
+        "panel": "My work"
+      }
+    },
+    {
+      "id": "A5",
+      "duration_seconds": 18.480227,
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "purpose": "A-roll subtitle reference; use AFTER or My work panel only",
+      "filename": "60x more views with pro editing.This Cafe Daily video grew from 1K to 60K views.DM us for high-p.mp4",
+      "original_path": "C:\\Users\\muhai\\Downloads\\60x more views with pro editing.This Cafe Daily video grew from 1K to 60K views.DM us for high-p.mp4",
+      "sha256": "e516c6d4687eadce0be2d0c13950474dbacb85ec6dc48fc1c7acd33257a6c1ec",
+      "included_in_package": false,
+      "audio": "aac stereo 44100 Hz",
+      "hard_cuts_seconds": [
+        3.57,
+        3.87,
+        12.83
+      ],
+      "panel_crop_px": {
+        "x": 281,
+        "y": 211,
+        "w": 358,
+        "h": 637,
+        "aspect": "9:16",
+        "panel": "AFTER"
+      }
+    }
+  ],
+  "last_verified": "2026-10-21",
+  "verification_note": "SHA-256 re-checked; 2 fps panel sheets, scene detection (threshold 0.3 on panel crop) and 30 fps transition strips produced. Hard-cut lists miss blur/flash transitions."
+}
